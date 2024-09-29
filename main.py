@@ -42,10 +42,11 @@ if __name__ == "__main__":
     old_mac_address = get_current_mac_address(iface)
 
 
-    #if we have to explain the tool, the tool' code itself explains, its a mac address changer.
+    
     print("[*] Old MAC address:", old_mac_address)
 
     change_mac_address(iface, new_mac_address)
 
     new_mac_address = get_current_mac_address(iface)
     print("[+] New MAC address:", new_mac_address)
+    #if we have to explain the tool, the tool' code itself explains, its a mac address changer.
